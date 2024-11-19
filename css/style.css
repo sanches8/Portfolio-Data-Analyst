@@ -1,0 +1,21 @@
+.navbar-nav-links {
+    margin-right: 120px; 
+    font-size: 20px;  
+  font-weight: 650; 
+  color: #2d2a23;  
+  padding: 10px 20px;  
+  transition: color 0.3s ease;  /* Transição suave ao passar o mouse */
+}
+.nav-link:hover {
+    color: #8c6c1c;  /* Cor de hover para chamar a atenção */
+  }
+  
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navbar-nav-logo {
+    margin-left: 100px;
+}
