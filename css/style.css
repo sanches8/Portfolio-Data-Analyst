@@ -51,7 +51,36 @@
 #banner-text h1 {
   color: #1a1919;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 50px;
-  letter-spacing: 2.5px;
-  font-weight: bold;
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: linear-gradient(80deg, #1a1919, #0077ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#banner-text p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+/* Animação do texto */
+#banner-text h1,
+#banner-text p {
+  opacity: 0;
+  transform: translateY(26px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
